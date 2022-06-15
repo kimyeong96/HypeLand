@@ -1,0 +1,175 @@
+@charset "UTF-8";
+
+/*네비바 속성*/
+i {
+    cursor: pointer;
+    margin: 5px;
+  }
+
+  .navbar-light {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    left: 0%;
+  }
+
+  .navbar-anchor a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+
+  #userIcon {
+    text-align: center;
+    font-size: 25px;
+    padding: 5px;
+  }
+
+  #logo {
+    width: 60px;
+    height: 50px;
+  }
+
+  /* 네비바 드롭다운 */
+  .dropdown-toggle:hover {
+    color: #83bf7b;
+    border-color: aliceblue;
+  }
+
+  .dropdown:hover .nav-category {
+    display: block;
+    margin-top: 0;
+    font-weight: bold;
+  }
+
+
+/*컨텐츠 영역*/
+
+.no-lineBox{
+    text-align: center;
+    margin-top: 150px;
+    border: none;
+    width: 70%;
+    height: auto;
+   
+}
+.no-lineBox p{ 
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.no-lineBox2{
+    text-align: center;
+    margin-top: 50px;
+    border: none;
+    width: 70%;
+    height: auto;  
+    font-size: 25px;
+    font-weight: bold;
+}
+.no-lineBox2 div{
+    text-align: left;
+    border: none;
+    width: 70%;
+    height: auto;  
+}
+
+.no-lineBox2 p{ 
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.contentBox{
+    text-align: center;
+    margin-top: 30px;
+    border: 3px solid lightgray;
+    width: 70%;
+    height: auto;
+   
+}
+.contentBox img{
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    
+}
+
+.hrefBox{
+    text-align: left;
+    margin-top: 30px;
+    border: 3px solid lightgray;
+    width: 70%;
+    height: auto;
+    cursor: pointer;
+    margin-bottom: 70px;
+   
+}
+
+.hrefBox h6{
+    font-size: 30px;
+    margin: 40px;
+    
+}
+.hrefBox p{ 
+    margin: 10px;        
+}
+
+/*아코디언*/
+.accordion-body{
+    margin: 0px;
+    padding: 0px;
+}
+.accordion-button{
+    border: none;
+}
+.accordion-button:not(.collapsed) { color: black;
+    background-color: white;
+    box-shadow: none ;
+}
+
+.accordion {--bs-accordion-border-radius: 0;}
+.focus{
+    color: red;
+    font-weight: bold;
+    margin: 10px;
+}
+.accordion span{ margin: 3px; margin-left:20px;}
+
+
+
+.greetBox{
+    margin: 20px;
+    width: 90%;
+    height: 160px;
+    text-align: left; 
+    padding: 15px 0 20px 20px;
+}
+.greetBox p{
+    margin: 25px;
+    font-size: 21px;
+    font-weight: bold;}    
+
+#contentBox2 p{
+    font-size: 12px;
+}
+
+
+
+/*풋터 영역*/
+
+.footerBox{
+    height: 200px;
+
+}
+footer.footer {
+     padding-top: 4rem;
+     padding-bottom: 4rem;
+}
+.footer a{
+    text-decoration: none;
+    color: black;
+    font-weight: 40px;
+    font-weight: bold;
+}

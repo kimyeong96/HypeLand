@@ -1,0 +1,13 @@
+@charset "UTF-8";
+.container{width: 400px; height: 400px;}
+.bi-x-lg{font-size: 30px;}
+.inputBox{width: 350px; margin:auto;}
+.btn{width: 300px;}
+p{text-decoration-line: none; color:lightslategrey; cursor: pointer;}
+a{text-decoration-line: none; color:lightslategrey; cursor: pointer;}
+  #btnFindID{
+           width:90%;
+       }
+       #findPw{
+           color:grey;
+       }

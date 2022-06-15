@@ -1,0 +1,224 @@
+@charset "UTF-8";
+ * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+      }
+
+      /* navbar & maincontainer */
+      .adminContainer {
+        height: 100vh;
+        background-color: black;
+      }
+      .adminNavbar {
+        margin: 0;
+        background-color: #212e41;
+        color: #fff;
+        height: 8%;
+      }
+
+      .adminNavbar-left {
+        font-size: 26px;
+      }
+
+      .adminNavbar-left span {
+        cursor: pointer;
+      }
+
+      .adminMain {
+        background-color: blue;
+      }
+
+      .adminContent {
+        margin: 0;
+        height: 92%;
+      }
+
+      .adminSidebarContainer {
+        background-color: #212e41;
+        color: #fff;
+      }
+
+      ul {
+        list-style: none;
+      }
+
+      .adminIcon {
+        margin-right: 30px;
+      }
+
+      .adminIconSpan {
+        margin-right: 12px;
+      }
+
+      .adminIconLogout {
+        margin-left: 26px;
+        cursor: pointer;
+      }
+
+      /* sidebar navlink */
+
+      .adminSidebar {
+        height: 92%;
+        background: #fff;
+        transition: all 0.5s ease;
+      }
+
+      .adminSidebar .nav-links li a {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+      }
+
+      .adminSidebarContainer {
+        padding: 0;
+      }
+
+      .adminMainContainer {
+        padding: 0;
+      }
+
+      .nav-linksContainer {
+        margin-top: 25px;
+        transition: 0.5s ease;
+      }
+
+      .nav-linksContainer:hover {
+        background-color: #1d1b31;
+      }
+
+      .nav-links {
+        font-size: 16px;
+        padding-left: 0;
+      }
+
+      .icon-link {
+        color: #fff;
+      }
+
+      .icon-link .icon-link-left {
+        color: #fff;
+      }
+
+      .icon-link .icon-link-left i {
+        left: 0;
+        color: #fff;
+      }
+
+      .icon-link .icon-link-left span {
+        color: #fff;
+      }
+
+      .sub-menu {
+        margin-left: 32px;
+        list-style: none;
+        display: none;
+        text-decoration-line: none;
+      }
+
+      .sub-menu li {
+        margin: 10px 0px;
+      }
+
+      .sub-menu li a {
+        font-size: 14px;
+        color: #fff;
+        text-decoration-line: none;
+      }
+
+      .sub-menu li:hover {
+        border-left: 3px solid #fff;
+      }
+
+      .firstTable {
+        background-color: #fff;
+        margin-bottom: 0;
+      }
+
+      /* 메인 페이지  */
+      .table > :not(:first-child) {
+        border-top: none;
+      }
+      .firstTableTitle {
+        font-size: 24px;
+      }
+
+      .firstTable {
+        border: 0;
+      }
+      .MemberText,
+      .searchMemberText {
+        font-size: 18px;
+        margin-left: 9px;
+        margin-bottom: 0;
+        border: 40px;
+      }
+      .searchMemberInput {
+        margin-left: auto;
+      }
+      .MemberContainer {
+        height: 340px;
+        overflow: auto;
+      }
+      #tableBox > thead > tr > th:nth-child(1) {
+        width: 340px;
+      }
+      tbody tr {
+        transition: 0.7s ease;
+        height: 41px;
+      }
+
+      /* table hover시 color 변경 */
+      #tableBox:hover tbody tr:hover td {
+        background-color: #7f7f7f;
+        color: #fff;
+      }
+
+      /* 이모티콘 cursor pointer */
+      td span {
+        cursor: pointer;
+      }
+      /* 모달창 */
+      .modal {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.8);
+        top: 0;
+        left: 0;
+        display: none;
+      }
+
+      .modal_content {
+        width: 600px;
+        height: 550px;
+        background: #fff;
+        border-radius: 10px;
+        position: relative;
+        top: 20%;
+        left: 50%;
+        margin-top: -100px;
+        margin-left: -200px;
+        text-align: center;
+        box-sizing: border-box;
+        padding: 30px 0;
+        line-height: 23px;
+      }
+      /* 삭제 모달 */
+      .boardDeleteModal {
+        position: fixed;
+        top: 50%;
+        left: 65%;
+        transform: translate(-50%, -50%);
+        border-radius: 5px;
+        height: 120px;
+        width: 300px;
+        display: none;
+        border: 1px solid black;
+        background-color: #e8ecef;
+      }
+
+      .selectAll:hover {
+          cursor: pointer;
+      }

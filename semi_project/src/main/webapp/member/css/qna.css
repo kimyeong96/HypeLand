@@ -1,0 +1,115 @@
+@charset "UTF-8";
+/*네비바 속성*/
+i{	cursor: pointer;
+    margin: 5px;
+}
+.navbar-light{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    left: 0%;
+}
+.navbar-anchor a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+#userIcon {
+    text-align: center;
+    font-size: 25px;
+    padding: 5px;
+}
+#logo{
+    width: 60px;
+    height: 50px;
+}
+/* 네비바 드롭다운 */
+.dropdown-toggle:hover{color: #83bf7b; border-color: aliceblue;}
+.dropdown:hover .nav-category {
+display: block;
+margin-top: 0;
+font-weight: bold;
+}
+
+/*헤더*/
+ .headerBox{
+     text-align: left;
+     margin-top: 100px;
+     border: 2px solid lightgrey;
+     height: auto;
+     
+    
+ }
+ .headerBox .col-4{
+     border-left: 2px solid lightgrey;
+ }    
+ .headerBox p{ 
+     margin: 40px;
+     margin-left: 40px;
+     font-size: 20px;
+     
+ }
+ .headerBox h3{
+     margin: 50px;
+ }
+ 
+ /*바디영역*/
+ .inputBox input{
+     margin: 2px;
+     width: 76%;
+     height: 80%;
+ }        
+ textarea{
+     width: 80%;
+     height: 350px;
+     margin-bottom: 50px;
+     resize: none;
+ }
+ 
+ /*FAQ*/
+ #FAQ{
+     width: 100%;
+     padding: 0px;
+     margin: 0px;
+     border-radius: 0px;
+ }
+ #FAQ img{
+     width: 100%;
+     height: auto;
+ }    
+ 
+ .faqBox .row , .col{
+     margin: 0px;
+     padding: 0px;
+ }
+ .focus{
+     color: red;
+     font-weight: bold;
+     margin-top: 10px;
+ }
+
+
+ /*버튼박스*/
+ .btnBox{
+     text-align: center;
+     margin-top: 100px;
+     margin-bottom: 100px;
+ }
+ 
+
+/*풋터 영역*/
+.footerBox{
+    height: 200px;
+
+}
+footer.footer {
+     padding-top: 4rem;
+     padding-bottom: 4rem;
+}
+.footer a{
+    text-decoration: none;
+    color: black;
+    font-weight: 40px;
+    font-weight: bold;
+}

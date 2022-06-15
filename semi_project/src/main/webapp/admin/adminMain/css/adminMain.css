@@ -1,0 +1,288 @@
+@charset "UTF-8";
+
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+      }
+
+      /* navbar & maincontainer */
+      .adminContainer {
+        height: 100vh;
+        background-color: black;
+      }
+      .adminNavbar {
+        margin: 0;
+        background-color: #212e41;
+        color: #fff;
+        height: 8%;
+      }
+
+      .adminNavbar-left {
+        font-size: 26px;
+      }
+
+      .adminNavbar-left span {
+        cursor: pointer;
+      }
+
+      .adminMain {
+        background-color: blue;
+      }
+
+      .adminContent {
+        margin: 0;
+        height: 92%;
+      }
+
+      .adminSidebarContainer {
+        background-color: #212e41;
+        color: #fff;
+      }
+
+      ul {
+        list-style: none;
+      }
+
+      .adminIcon {
+        margin-right: 30px;
+      }
+
+      .adminIconSpan {
+        margin-right: 12px;
+      }
+
+      .adminIconLogout {
+        margin-left: 26px;
+        cursor: pointer;
+      }
+
+      /* sidebar navlink */
+
+      .adminSidebar {
+        height: 92%;
+        background: #fff;
+        transition: all 0.5s ease;
+      }
+
+      .adminSidebar .nav-links li a {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+      }
+
+      .adminSidebarContainer {
+        padding: 0;
+      }
+
+      .adminMainContainer {
+        padding: 0;
+      }
+
+      .nav-linksContainer {
+        margin-top: 25px;
+        transition: 0.5s ease;
+      }
+
+      .nav-linksContainer:hover {
+        background-color: #1d1b31;
+      }
+
+      .nav-links {
+        font-size: 16px;
+        padding-left: 0;
+      }
+
+      .icon-link {
+        color: #fff;
+      }
+
+      .icon-link .icon-link-left {
+        color: #fff;
+      }
+
+      .icon-link .icon-link-left i {
+        left: 0;
+        color: #fff;
+      }
+
+      .icon-link .icon-link-left span {
+        color: #fff;
+      }
+
+      .sub-menu {
+        margin-left: 15%;
+        list-style: none;
+        display: none;
+        text-decoration-line: none;
+      }
+
+      .sub-menu li {
+        margin: 10px 0px;
+      }
+
+      .sub-menu li a {
+        font-size: 14px;
+        color: #fff;
+        text-decoration-line: none;
+      }
+
+      .sub-menu li:hover {
+        border-left: 3px solid #fff;
+      }
+
+      .firstTable {
+        background-color: #fff;
+        margin-bottom: 0;
+      }
+
+      .cardContainer {
+        margin: 0;
+      }
+      .cardContainer,
+      .cardContentBox {
+        padding: 0;
+      }
+
+      /* 차트  */
+      .charts {
+        height: 46%;
+      }
+
+      .highcharts-figure,
+      .highcharts-data-table table {
+        min-width: 320px;
+        max-width: 660px;
+        margin: 1em auto;
+      }
+
+      .highcharts-data-table table {
+        font-family: Verdana, sans-serif;
+        border-collapse: collapse;
+        border: 1px solid #ebebeb;
+        margin: 10px auto;
+        text-align: center;
+        width: 100%;
+        max-width: 500px;
+      }
+
+      .highcharts-data-table caption {
+        padding: 1em 0;
+        font-size: 1.2em;
+        color: #555;
+      }
+
+      .highcharts-data-table th {
+        font-weight: 600;
+        padding: 0.5em;
+      }
+
+      .highcharts-data-table td,
+      .highcharts-data-table th,
+      .highcharts-data-table caption {
+        padding: 0.5em;
+      }
+
+      .highcharts-data-table thead tr,
+      .highcharts-data-table tr:nth-child(even) {
+        background: #f8f8f8;
+      }
+
+      .highcharts-data-table tr:hover {
+        background: #f1f7ff;
+      }
+
+      .highcharts-figure,
+      .highcharts-data-table table {
+        min-width: 310px;
+        max-width: 2000px;
+        margin: 1em auto;
+      }
+
+      #container2 {
+        height: 500px;
+      }
+
+      .highcharts-data-table table {
+        font-family: Verdana, sans-serif;
+        border-collapse: collapse;
+        border: 1px solid #ebebeb;
+        margin: 10px auto;
+        text-align: center;
+        width: 100%;
+        max-width: 500px;
+      }
+
+      .highcharts-data-table caption {
+        padding: 1em 0;
+        font-size: 1.2em;
+        color: #555;
+      }
+
+      .highcharts-data-table th {
+        font-weight: 600;
+        padding: 0.5em;
+      }
+
+      .highcharts-data-table td,
+      .highcharts-data-table th,
+      .highcharts-data-table caption {
+        padding: 0.5em;
+      }
+
+      .highcharts-data-table thead tr,
+      .highcharts-data-table tr:nth-child(even) {
+        background: #f8f8f8;
+      }
+
+      .highcharts-data-table tr:hover {
+        background: #f1f7ff;
+      }
+
+      /* 메인 페이지  */
+      .firstTableTitle {
+        font-size: 24px;
+      }
+
+      .dataContainer {
+        border-radius: 5px;
+        color: #fff;
+        transition: ease 1.3s;
+      }
+
+      .dataContainer:hover {
+        transform: scale(1.1);
+      }
+
+      .dataContainer1 {
+        background-color: #7da0fa;
+      }
+
+      .dataContainer2 {
+        background-color: #4747a1;
+      }
+
+      .dataContainer3 {
+        background-color: #7878e8;
+      }
+
+      .dataContainer4 {
+        background-color: #f4797e;
+      }
+
+      .dataBox-Text {
+        width: 100px;
+      }
+
+      .dataBox-Text:nth-child(2) {
+        color: #fff;
+      }
+
+      .dataBox-Icon i {
+        font-size: 36px;
+      }
+
+      .dataBox-Text-Count {
+        font-size: 20px;
+      }

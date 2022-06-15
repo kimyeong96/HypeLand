@@ -1,0 +1,184 @@
+@charset "UTF-8";
+ /* navbar & maincontainer */
+ 
+.adminContainer {
+	height: 100vh;
+	background-color: black;
+}
+
+.titleLogo, .shipmentModify {
+	cursor: pointer;
+}
+
+.adminNavbar {
+	margin: 0;
+	background-color: #212e41;
+	color: #fff;
+	height: 8%;
+}
+
+.adminNavbar-left {
+	font-size: 26px;
+}
+
+.adminNavbar-left span {
+	cursor: pointer;
+}
+
+.adminMain {
+	background-color: blue;
+}
+
+.adminContent {
+	margin: 0;
+	height: 92%;
+}
+
+.adminSidebarContainer {
+	background-color: #212e41;
+	color: #fff;
+}
+
+.adminMainContainer {
+	background-color: none;
+}
+
+ul {
+	list-style: none;
+}
+
+.adminIcon {
+	margin-right: 30px;
+}
+
+.adminIconSpan {
+	margin-right: 12px;
+}
+
+.adminIconLogout {
+	margin-left: 26px;
+	cursor: pointer;
+}
+
+/* sidebar navlink */
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+
+.adminSidebar {
+	height: 92%;
+	background: #fff;
+	transition: all 0.5s ease;
+}
+
+.adminSidebar .nav-links li a {
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+}
+
+.nav-linksContainer {
+	margin-top: 25px;
+	transition: 0.5s ease;
+}
+
+.nav-linksContainer:hover {
+	background-color: #1d1b31;
+}
+
+.nav-links {
+	font-size: 16px;
+	padding-left: 0;
+}
+
+.icon-link {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	color: #fff;
+}
+
+.icon-link .icon-link-left {
+	color: #fff;
+}
+
+.icon-link .icon-link-left i {
+	left: 0;
+	margin-right: 16px;
+	color: #fff;
+}
+
+.icon-link .icon-link-left span {
+	color: #fff;
+}
+
+.sub-menu {
+	margin-left: 36px;
+	list-style: none;
+	display: none;
+}
+
+.sub-menu li {
+	margin: 10px 0px;
+}
+
+.sub-menu li a {
+	font-size: 14px;
+	color: #fff;
+}
+
+.sub-menu li:hover {
+	border-left: 3px solid #fff;
+}
+/* 메인 페이지 */
+.table>:not(:first-child) {
+	border-top: none;
+}
+
+.memberDelete {
+	cursor: pointer;
+}
+
+.memberModify {
+	cursor: pointer;
+}
+
+.searchMemberInput {
+	margin-left: auto;
+}
+
+#tableBox>tbody>tr {
+	height: 41px;
+}
+
+/* 수정 모달창 */
+.modal {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.8);
+	top: 0;
+	left: 0;
+	display: none;
+}
+
+.modal_content {
+	width: 650px;
+	height: 650px;
+	background: #fff;
+	border-radius: 10px;
+	position: relative;
+	top: 20%;
+	left: 50%;
+	margin-top: -100px;
+	margin-left: -200px;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 30px 0;
+	line-height: 23px;
+}

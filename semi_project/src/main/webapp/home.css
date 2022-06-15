@@ -1,0 +1,149 @@
+@charset "UTF-8";
+/*네비바 속성*/
+i{	cursor: pointer;
+    margin: 5px;
+}
+.navbar-light{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    left: 0%;
+}
+.navbar-anchor a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+#userIcon {
+    text-align: center;
+    font-size: 25px;
+    padding: 5px;
+}
+#logo{
+    width: 60px;
+    height: 50px;
+}
+/* 네비바 드롭다운 */
+.dropdown-toggle:hover{color: #83bf7b; border-color: aliceblue;}
+.dropdown:hover .nav-category {
+display: block;
+margin-top: 0;
+font-weight: bold;
+}
+
+/* 캐러셀*/
+.carousel-C {
+     position: absolute;
+     right: 15%;
+     bottom: 1.25rem;
+     left: 15%;
+     padding-top: 3.25rem;
+     padding-bottom: 1.25rem;
+     color: #fff;
+     text-align: center;
+}
+
+.carousel-inner{
+    position: relative;
+    
+    cursor: pointer;
+}
+.carouselFimg{
+    min-width: 100%;
+    min-height: 500px;
+/*     max-height: 695px; */
+	max-height: 880px;
+}
+
+.carouselImg{
+    min-width: 100%;
+/*     max-height: 720px; */
+    max-height: 900px;
+}
+.carousel-c-next {
+    position: absolute;
+    bottom: 1%;
+    right: 220px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    width: 15%;
+    padding: 0;
+    color: white;
+    text-align: center;
+    background: 0 0;
+    border: 0;
+    transition: opacity .15s ease;
+    text-shadow: 1px 1px 2px rgb(0 0 0 / 50%);
+    cursor: pointer;
+}
+.carousel-c-prev{
+    position: absolute;
+    bottom: 1%;
+    left: 220px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    padding: 0;
+    color: white;
+    text-align: center;
+    background: 0 0;
+    border: 0;
+    transition: opacity .15s ease;
+    text-shadow: 1px 1px 2px rgb(0 0 0 / 50%);
+    cursor: pointer;
+}
+.carousel-indicators{
+    position: absolute;
+    display: inline;
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+    width: 170px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    
+}
+
+
+.textBox{
+    position: absolute;
+    text-align: left;
+    top: 50%;
+    left: 15%;
+    transform: translateY(-50%);
+    color: white;
+    font-family: 'Nanum Gothic', sans-serif;
+    text-shadow: 1px 1px 2px rgb(0 0 0 / 80%);
+}
+.textTitle{
+    font-size: 35px;
+    text-shadow: 1px 1px 2px rgb(0 0 0 / 80%);
+}
+
+.viewMore{
+    border: transparent;
+    width: 180px;
+    height: 60px;
+    background-color: rgba(255,255,255,0.85);
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: bold;
+    box-shadow: 1px 1px 4px rgb(0 0 0 / 20%);
+}
+ /*풋터 영역*/
+ .footerBox{height: 200px;}
+ footer.footer {
+      padding-top: 4rem;
+      padding-bottom: 4rem;
+ }
+ .footer a{
+      text-decoration: none;
+      color: black;
+      font-weight: 40px;
+      font-weight: bold;
+ }
+        

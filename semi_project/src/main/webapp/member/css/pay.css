@@ -1,0 +1,148 @@
+@charset "UTF-8";
+
+i {
+  margin: 5px;
+}
+
+.navbar-light {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  left: 0%;
+}
+
+body {
+  padding-top: 100px;
+}
+
+/*네비바 속성*/
+.navbar-anchor a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+#userIcon {
+  text-align: right;
+  font-size: 25px;
+  padding: 5px;
+}
+
+#navbar-search {
+  text-align: right;
+}
+
+#searchIcon {
+  color: lightgrey;
+}
+
+/* 네비바 드롭다운 */
+.dropdown-toggle:hover {
+  color: #83bf7b;
+  border-color: aliceblue;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+  font-weight: bold;
+}
+
+.header-comment {
+  padding: 20px;
+  border-bottom: 1px solid lightgray;
+}
+
+.productImg {
+  width: 5rem;
+  height: 5rem;
+  margin-left: 1rem;
+}
+
+.plusBtn,
+.minusBtn,
+.quantity {
+  border: none;
+  width: 30%;
+  height: 100%;
+}
+
+table{
+    border: 1px solid lightgray;
+}
+
+.userInfo td{
+    padding: 1rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+.productInfo td, th{
+    text-align: center;
+    vertical-align: middle;
+    font-size: 0.8rem;
+}
+
+.P-Option{
+    width: 80%;
+    text-align: center;
+}
+.disabled {
+pointer-events: none;
+background-color: #00000010;
+color: black;
+opacity: 1;
+}
+.section{
+    border-top: 1px solid lightgray;
+}
+.destination{
+    margin-right: 5%;
+}
+.comment{
+    margin-left: 1rem;
+    font-size: 0.8rem;
+    color: lightgray;
+}
+.place-change{
+  background-color: white;
+  border: 1px solid lightgray;
+}
+.total td{
+  height: 3rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+
+
+.guideline {
+  opacity: 0.7;
+  font-size: 0.5rem;
+}
+
+.btnOrder {
+  width: 10rem;
+  height: 4rem;
+}
+
+
+
+
+/*풋터 영역*/
+.footerBox {
+  height: 200px;
+
+}
+
+footer.footer {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.footer a {
+  text-decoration: none;
+  color: black;
+  font-weight: 40px;
+  font-weight: bold;
+}
