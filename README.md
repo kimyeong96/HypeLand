@@ -20,7 +20,7 @@
 |Framework / Platform|Bootstrap|
 |Pattern|MVC MODEL2 Pattern|
 |Development Languages|Java, HTML, CSS , Javascript, Jquery, Servlet, JSP, Ajax, Oracle SQL|
-|Library|ojdbc8, cos.jar, gson2.8.9, dbcp2|
+|Library|ojdbc8, cos.jar, gson2.8.9, dbcp2, highcharts|
 
 
 ---------------------------------------
