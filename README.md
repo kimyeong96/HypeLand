@@ -111,4 +111,9 @@
 ## 😥 아쉬운 점
 - 상대적으로 짧게 느껴졌던 프로젝트 기간이었기에 , UI 구현에 시간을 많이 쓰지 못했던 부분이 있었다. 반응형 웹 페이지를 목적으로 하였지만, 몇몇 페이지는 반응형 작동이 안 되는 부분들도 있었고, 계획했던 대로 UI 구현을 하지 못했던 부분들도 있었기 때문에 많은 아쉬운 점으로 남아있다. 다음에는 이러한 점을 보완하여 좀 더 완벽한 웹페이지를 만들어보고 싶다.
 
+
 ---------------------------------------
+## 📑 기타 문서
+* [전체 PPT](https://github.com/kimyeong96/Semi_project/blob/main/ppt/HypeLand.pptx)
+* [구현 화면 PPT](https://github.com/kimyeong96/Semi_project/blob/main/ppt/%EA%B8%B0%EB%8A%A5%20%EA%B5%AC%ED%98%84%20ppt.pptx)
+* [DB](https://github.com/kimyeong96/Semi_project/blob/main/screenshoots/db.png)
