@@ -115,5 +115,5 @@
 ---------------------------------------
 ## 📑 기타 문서
 * [전체 PPT](https://github.com/kimyeong96/Semi_project/blob/main/ppt/HypeLand.pptx)
-* [구현 화면 PPT](https://github.com/kimyeong96/Semi_project/blob/main/ppt/%EA%B8%B0%EB%8A%A5%20%EA%B5%AC%ED%98%84%20ppt.pptx)
+* [구현 화면 PPT](https://github.com/kimyeong96/Semi_project/blob/main/ppt/admin_ppt.pptx)
 * [DB](https://github.com/kimyeong96/Semi_project/blob/main/screenshoots/db.png)
