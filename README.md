@@ -62,7 +62,7 @@
 #### 직책 : 팀원
 
 
-#### 담당 기능 : 관리자 페이지 UI 구현 및 메인, 게시판, 배송 관리(UI 및 기능 구현) -> *[구현 ppt](https://github.com/kimyeong96/Semi_project/blob/main/ppt/admin_ppt.pptx)*
+#### 담당 기능 : 관리자 페이지 UI 구현 및 메인, 게시판 관리, 배송 관리(UI 및 기능 구현) -> *[구현 ppt](https://github.com/kimyeong96/Semi_project/blob/main/ppt/admin_ppt.pptx)*
 
 
 > code
